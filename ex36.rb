@@ -87,8 +87,6 @@ def bear
 	end
 end
 	
-#Do these.	
-	
 def kitchen_livingroom
 	puts "You're in the kitchen/livingroom area.\nYou may cook, wash dishes, look out the window, or take a look around."
 	print ">"
@@ -131,8 +129,10 @@ def kitchen_livingroom
 	end
 end
 
+#Do these.
+	
 def bathroom
-	puts ""
+	puts "You're in the bathroom. You may use the toilet, wash your hands, or snoop in the medicine cabinet. "
 	print ">"
 	choice = $stdin.gets.chomp
 
